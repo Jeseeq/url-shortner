@@ -1,0 +1,26 @@
+{
+  "name": "url-shortener",
+  "description": "simple url shortener(build for learning)",
+  "main": "index.js",
+  "authors": [
+    "Vitalii Hrytsiienko"
+  ],
+  "license": "GPLv2",
+  "keywords": [
+    "URL"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-bootstrap": "^3.0.2",
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6"
+  }
+}

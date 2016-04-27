@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title="Shorty"
+    link(rel='stylesheet', href='/bootstrap/dist/css/bootstrap.css', type='text/css')
+    link(rel='stylesheet', href='/public/css/style.css', type='text/css')
+  body
+    div.site-wrapper
+      div.site-wrapper-inner
+        div.main-container
+          div.row
+            span.glyphicon.glyphicon-link 
+          div.row
+            h1 Shorty
+          div.row
+            form(action="/", method="POST")
+              input(type="url", name="url")
+              input(type="submit", name="Submit")
+        

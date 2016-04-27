@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+  head
+    title="Shorty"
+  body
+    div.container
+      div.row
+        h1 Shorty
+        p 
+          |Your short URL is 
+          a(href=base_url + '/' + id) #{base_url}/#{id}

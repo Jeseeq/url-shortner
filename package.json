@@ -1,0 +1,31 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "simple url shortener(build for learning)",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "URL"
+  ],
+  "author": "Vitalii Hrytsiienko",
+  "license": "GPLv2",
+  "dependencies": {
+    "shortid": "~2.2.4",
+    "redis": "~2.5.2",
+    "express": "~4.13.4",
+    "body-parser": "~1.15.0",
+    "jade": "~1.11.0",
+    "hiredis": "~0.4.1"
+  },
+  "devDependencies": {
+    "grunt-mocha-istanbul": "~3.0.1",
+    "chai": "~3.5.0",
+    "request": "~2.69.0",
+    "mocha": "~2.4.5",
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~1.0.0",
+    "istanbul": "~0.4.2"
+  }
+}
